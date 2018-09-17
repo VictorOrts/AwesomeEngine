@@ -16,8 +16,8 @@ int Window::main(int argc, char**argv) {
 	myengine->setScene(BasicScene);
 
 	//Function already maded for example scenes
-	//example_2B(BasicScene);
-	example_cubes(BasicScene);
+	example_2B(BasicScene);
+	//example_cubes(BasicScene);
 	myengine->get_time()->last_time();
 	double posx, posy;
 	vec2 center = vec2(400, 300);

@@ -1,0 +1,13 @@
+global EsteCubo;
+global model_mid;
+def start(){
+	print("\nStartSCript")
+	EsteCubo = getGameObject("2B_0");
+	model_mid = getGameObject("2B_1");
+}
+
+def update(){
+	EsteCubo.rotate(0,5,0);
+	model_mid.rotate(0,-5,0);
+	//print("cosa");
+}
